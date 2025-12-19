@@ -1,11 +1,9 @@
 {
   "manifest_version": 3,
-  "name": "Portfolio DOM Extractor",
+  "name": "Portfolio Extractor",
   "version": "1.0",
-  "description": "Pobiera listę operacji z DOM po kliknięciu przycisku.",
-  "permissions": ["activeTab", "scripting"],
+  "permissions": ["activeTab", "scripting", "downloads"],
   "action": {
     "default_popup": "popup.html"
   }
 }
-
